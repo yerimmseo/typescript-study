@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es5",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "sourceMap": true,
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+    "paths": { "*": ["node_modules/*"] }
+  },
+  "include": ["src/**/*"]
+}
+
+// compilerOptions 항목은 tsc 명령 형식에서 옵션을 나타냄
+// include 항목은 대상 파일 목록을 나타냄.
+// src/**/*은 src 디렉터리는 물론 src의 하위 디렉터리에 있는 모든 파일을 컴파일 대상으로 포함한다는 의미
+
+// tsconfig.json 파일은 '키: 키값'형태로 작성
